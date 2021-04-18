@@ -1,0 +1,74 @@
+[
+  {
+    "productId": "1",
+    "productDesc": "Devil's Ride",
+    "price": "12000",
+    "image": "p1"
+  },
+  {
+    "productId": "2",
+    "productDesc": "plumCake Pudding",
+    "price": "1399",
+    "image": "p1"
+  },
+  {
+    "productId": "3",
+    "productDesc": "Skin Care Solution",
+    "price": "2100",
+    "image": "p1"
+  },
+  {
+    "productId": "4",
+    "productDesc": "Khadi Bagback",
+    "price": "1350",
+    "image": "p1"
+  },
+  {
+    "productId": "5",
+    "productDesc": "Some  Classic Wear",
+    "price": "3210",
+    "image": "p1"
+  },
+  {
+    "productId": "6",
+    "productDesc": "Nike Air Shoes",
+    "price": "12345",
+    "image": "p1"
+  },
+  {
+    "productId": "7",
+    "productDesc": "Bangles",
+    "price": "12000",
+    "image": "p1"
+  },
+  {
+    "productId": "8",
+    "productDesc": "Chokers",
+    "price": "1399",
+    "image": "p1"
+  },
+  {
+    "productId": "9",
+    "productDesc": "Rings from heaven",
+    "price": "2100",
+    "image": "p2"
+  },
+  {
+    "productId": "10",
+    "productDesc": "Oxidised jewellery",
+    "price": "1350",
+    "image": "p1"
+  },
+  {
+    "productId": "11",
+    "productDesc": "Earrings",
+    "price": "3210",
+    "image": "p1"
+  },
+  {
+    "productId": "12",
+    "productDesc": "Bathing Solutions",
+    "price": "12345",
+    "image": "p1"
+  }
+]
