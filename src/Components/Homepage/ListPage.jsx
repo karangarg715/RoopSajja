@@ -8,7 +8,7 @@ export default function ListPage(props) {
     const {data,counterWishList}=props
     console.log(data.image)
     const wishlist=()=>{
-        const dat=data
+      
         counterWishList(true)
         window.alert("added to wishlist")
     }

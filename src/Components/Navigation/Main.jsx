@@ -4,7 +4,6 @@ import Homepage from '../Homepage/Homepage'
 import ProductDetails from '../ProductDetails'
 import Cart from '../Cart/CartList.jsx'
 import Wishlist from '../WishList/WishList'
-import Header from '../Homepage/Header'
 
 export default function Main() {
     return (
