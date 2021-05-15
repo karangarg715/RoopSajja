@@ -58,12 +58,12 @@ export default function Homepage() {
                         <ul className="outerl12">
                             <NavLink to="/Rings"> <li className="l12" style={{top:"5%"}}>Rings</li></NavLink>
                             <NavLink to="/Anklets"><li className="l12" style={{top:"15%"}}>Anklets</li></NavLink>
-                            <NavLink to="/Chains"><li className="l12" style={{top:"25%"}}>Chains</li></NavLink>
+                            <NavLink to="/Chain"><li className="l12" style={{top:"25%"}}>Chains</li></NavLink>
                             <NavLink to="/Pendants">  <li className="l12" style={{top:"35%"}}>Pendants</li></NavLink>
                             <NavLink to="/Earrings">   <li className="l12" style={{top:"45%"}} >Earrings</li></NavLink>
                             <NavLink to="/Maang Tika"> <li className="l12" style={{top:"55%"}}>Maang Tika</li></NavLink>
                             <NavLink to="/Necklace Set">  <li className="l12" style={{top:"65%"}}>Neclace Set</li></NavLink>
-                            <NavLink to="/Mangal Sutra"> <li className="l12" style={{top:"75%"}}>Mangal Sutra</li></NavLink>
+                            <NavLink to="/MangalSutra"> <li className="l12" style={{top:"75%"}}>Mangal Sutra</li></NavLink>
                             <NavLink to="/Bangles&Bracelets"> <li className="l12" style={{top:"85%"}}>Bangles & Bracelets</li></NavLink>
                         </ul>
                     </div>}
@@ -130,7 +130,7 @@ export default function Homepage() {
 </div>
                 </div>
                 
-            <div className="Header" style={{display:"flex",position:"absolute",top:"27%",left:"20%",height:"50%",width:"60%"}}>
+            {/* <div className="Header" style={{display:"flex",position:"absolute",top:"27%",left:"20%",height:"50%",width:"60%"}}>
                 <div style={{display:"flex",height:"100%",width:"100%",border:"2px solid gold",position:"relative"}}>
                     <div style={{marginRight:"20px",position:"absolute",left:"5%",top:"5%"}}>
                     <li className="outerHeading" style={{fontWeight:"bold",fontSize:"1.2em"}}>Jewellery</li>
@@ -217,7 +217,7 @@ export default function Homepage() {
                     
             
                 </div>
-            </div>
+            </div> */}
             </section>
 
 
