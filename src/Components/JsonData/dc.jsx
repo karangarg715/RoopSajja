@@ -1,0 +1,1 @@
+import r from '../../Images/RingImages/R01.jpg'

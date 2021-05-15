@@ -1,24 +1,34 @@
 import logo from './logo.svg';
+import {useState,useEffect} from 'react'
 import './App.css';
 
 function App() {
+  const [val,setval]=useState("")
+  useEffect(()=>{
+    window.alert("hi")
+    console.log("heyo")
+    setval("karan")
+  },)
+
+
+  forward=(val)=>{
+    let temp=generalarray;
+    temp.push(val);
+    setgeneralarray(temp);
+  }
+
+
+
+  const [inc,setinc]=useState(0);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div>
+        {/* <input onChange={(e)=>{setval(e.target.value)}} value={val} ></input> */}
+        <div>Hey : {val}</div>
+        <button onClick={()=>{setval("Arjun")}}>Click Me</button>
+
+
+
+      </div>
   );
 }
 

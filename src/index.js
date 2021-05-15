@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Main from './Components/Navigation/Main'
-
+import App from  './App2';
+import Header from '../src/Components/Homepage/Header'
 ReactDOM.render(
   <React.StrictMode>
     <Main/>

@@ -1,6 +1,7 @@
 .p1{
     background-color: rgba(222,14,121,0.3);
     height: 100%;
+    border: 1px solid gold;
     width: 100%;
     position: absolute;
     top:-100%;
@@ -11,7 +12,7 @@
 }
 
 .d1{
-    flex-basis:30.3333%;margin:30px 10px 10px 30px;height: auto;position: relative;box-sizing: border-box;overflow: hidden;
+    flex-basis:30.3333%;margin:30px 10px 10px 30px;height:50vh;position: relative;box-sizing: border-box;overflow: hidden;border:2px solid black
 }
 .d1:hover .p1{
     top:0%;
@@ -23,10 +24,13 @@
     font-size:3em;color:white;position:absolute;right:2%;top:81%
 }
 @media all  and (max-width:800px){
+    .b1{
+        display: none;
+    }
     .d1{
         flex-basis: 100%;
         margin:30px 10px 10px 10px;height: auto;position: relative;box-sizing: border-box;overflow: hidden;
-     border: 2px solid green;   
+     
     }
     .icon1{
         font-size:2em;color:white;position:absolute;right:15%;top:81%
@@ -51,6 +55,9 @@
     }
 }
 @media all and (max-width:300px){
+    .b1{
+        display: none;
+    }
     .d1{
         flex-basis: 100%;
         margin:30px 10px 10px 10px;height: auto;position: relative;box-sizing: border-box;overflow: hidden;

@@ -23,10 +23,10 @@ export default function Homepage() {
             <section style={{position:"sticky",top:"0px",left:"0px",zIndex:"200"}}>
                 <Header></Header>
                 </section>
-                <section style={{display:"flex",flexWrap:"wrap"}}>
+                {/* <section style={{display:"flex",flexWrap:"wrap"}}>
 
                     {products.map((user)=>(<List data={user} counterWishList={counterWishList}></List>))}
-                </section>
+                </section> */}
             
         </div>
     )
